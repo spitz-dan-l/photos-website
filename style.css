@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.photo {
+    margin: 4em;
+}
+
+.photo a {
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+
+.photo img {
+    display: block;
+    margin: auto;
+}
