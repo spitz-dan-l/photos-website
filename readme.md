@@ -32,7 +32,7 @@ If you would prefer to process or convert your images in a different way, then r
 It is basically a 2-step process:
 
 1. Run `python build_site.py --photos path/to/photos --site path/to/site` to process the images, generate HTML for a static image-viewing site, and bundle it all together using Redbean. Produces `path/to/site` and `path/to/site.com` (the redbean executable server/zip).
-2. Deploy the newly-created Redbean executable any way you want. (Like I mentioned I used fly.io, which required me to further bake the executable into a trivial docker image. Example in `app/`.)
+2. Deploy the newly-created Redbean executable any way you want. (Like I mentioned I used fly.io, which required me to further bake the executable into a trivial docker image. Example in [deploy](deploy/Dockerfile).)
 
 # What it does
 
